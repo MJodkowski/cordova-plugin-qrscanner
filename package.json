@@ -27,7 +27,7 @@
     "commitmsg": "validate-commit-msg",
     "prep-release": "git clean -dfx && npm install && npm run build && npm run changelog",
     "prepare": "npm install",
-    "postinstall": "npm run build"
+    "postinstall": "npm i && npm run build"
   },
   "repository": {
     "type": "git",
