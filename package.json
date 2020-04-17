@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-qrscanner",
-  "version": "3.0.1",
-  "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
+  "name": "cordova-plugin-qrscanner-ean",
+  "version": "1.0.0",
+  "description": "Fast, energy-efficient, highly-configurable QR code scanner modified to scan EAN codes.",
   "cordova": {
-    "id": "cordova-plugin-qrscanner",
+    "id": "cordova-plugin-qrscanner-ean",
     "platforms": [
       "ios"
     ]
@@ -25,8 +25,7 @@
     "test:library": "npm run build && node tests/library/test.js",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "commitmsg": "validate-commit-msg",
-    "prep-release": "git clean -dfx && npm install && npm run build && npm run changelog",
-    "prepare": "git clean -dfx && npm install && npm run build && npm run changelog"
+    "prep-release": "git clean -dfx && npm install && npm run build && npm run changelog"
   },
   "repository": {
     "type": "git",
