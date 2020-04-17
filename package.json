@@ -26,7 +26,8 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "commitmsg": "validate-commit-msg",
     "prep-release": "git clean -dfx && npm install && npm run build && npm run changelog",
-    "prepare": "npm install"
+    "prepare": "npm install",
+    "postinstall": "npm i && npm run build"
   },
   "repository": {
     "type": "git",
